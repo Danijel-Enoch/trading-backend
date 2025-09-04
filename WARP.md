@@ -17,14 +17,18 @@ This is `trading-backend`, a Python library for cryptocurrency exchange integrat
 
 ### Environment Setup
 ```bash
-# Install the library in development mode
+# Recommended: Use the installation script
+python3 install.py
+
+# OR Manual installation:
+# 1. Install custom CCXT and dependencies first
+python3 -m pip install -r requirements.txt
+
+# 2. Install the library in development mode
 python3 -m pip install -e .
 
 # Install development dependencies
 python3 -m pip install -r dev_requirements.txt
-
-# Install production dependencies only
-python3 -m pip install -r requirements.txt
 ```
 
 ### Testing
