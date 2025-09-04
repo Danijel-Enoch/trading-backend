@@ -113,6 +113,11 @@ from trading_backend.exchanges.bitmart import (
     Bitmart
 )
 
+from trading_backend.exchanges import weex
+from trading_backend.exchanges.weex import (
+    Weex
+)
+
 __all__ = [
     "Exchange",
     "Binance",
@@ -131,4 +136,5 @@ __all__ = [
     "Bingx",
     "Coinex",
     "Bitmart",
+    "Weex",
 ]
