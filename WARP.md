@@ -8,9 +8,10 @@ This is `trading-backend`, a Python library for cryptocurrency exchange integrat
 
 **Key Details:**
 - Python 3.8+ requirement
-- Primary dependency on CCXT library for exchange connections
+- Primary dependency on custom CCXT library for exchange connections (includes weex exchange support)
 - LGPL-3.0 licensed
 - Version 1.2.41 (as of last update)
+- Uses custom CCXT from: https://github.com/Danijel-Enoch/ccxt
 
 ## Development Commands
 
@@ -97,7 +98,7 @@ Each exchange inherits from base `Exchange` class and provides:
 - Binance, BinanceUS, Bybit, OKX, Coinbase
 - KuCoin, KuCoin Futures, MEXC, Bitget, Phemex
 - Gate.io, HTX, Huobi, Crypto.com, Ascendex
-- Bingx, Coinex, Bitmart, HollaEx
+- Bingx, Coinex, Bitmart, HollaEx, Weex
 
 ### Error Handling System
 

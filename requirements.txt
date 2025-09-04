@@ -1,3 +1,4 @@
 # Tentacles compilation requirements
 setuptools
-ccxt
+# Custom CCXT with weex exchange support
+git+https://github.com/Danijel-Enoch/ccxt.git@master#subdirectory=python

@@ -18,7 +18,8 @@ pur
 
 pylint
 
-ccxt==4.4.85   # use to run test using a specific version of ccxt
+# Custom CCXT with weex exchange support for testing
+git+https://github.com/Danijel-Enoch/ccxt.git@master#subdirectory=python
 
 # async http requests
 aiohttp==3.11.18
